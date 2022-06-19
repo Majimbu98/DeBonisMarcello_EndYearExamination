@@ -1,0 +1,17 @@
+# Visual Studio
+.vs
+*.db
+*.recipe
+*.log
+*.tlog
+*.filter
+*.suo
+
+# Project folders
+[Bb]inaries
+[Bb]in
+[Dd]ebug
+[Dd]ocs
+[Ii]nt
+[Ii]ntermediate
+
