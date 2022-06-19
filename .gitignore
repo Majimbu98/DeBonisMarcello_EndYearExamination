@@ -6,6 +6,9 @@
 *.tlog
 *.filter
 *.suo
+*.sln
+*.vcxproj
+*.user
 
 # Project folders
 [Bb]inaries

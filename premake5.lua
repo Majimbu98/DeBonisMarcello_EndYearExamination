@@ -36,7 +36,13 @@ workspace "MyGame"
             "sfml-main.lib",
             "sfml-window.lib",
             "sfml-graphics.lib",
-            "sfml-audio.lib"
+            "sfml-audio.lib",
+            "sfml-system.lib-d",
+            "sfml-main.lib-d",
+            "sfml-window.lib-d",
+            "sfml-graphics.lib-d",
+            "sfml-audio.lib-d"
+		
         }
 
     project "DeBonis_Framework"
