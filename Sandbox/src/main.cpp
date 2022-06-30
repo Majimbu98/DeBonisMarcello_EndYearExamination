@@ -19,7 +19,7 @@ int main()
 	/// </summary>
 	/// <returns></returns>
 	auto background = new Sprite();
-	background->renderer->set_texture_source("Textures/Sala Principale.jpg", true, true);
+	background->renderer->set_texture_source("Textures/SalaPrincipale.jpg", true, true);
 	background->rect_transform->set_scale(1920, 1080);
 	mywindow->GM.allEntities.push_back(background);
 

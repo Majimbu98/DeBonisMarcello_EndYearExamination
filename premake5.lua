@@ -26,8 +26,11 @@ workspace "MyGame"
 	  libdirs {"%{wks.location}/bin/%{cfg.buildcfg}-%{cfg.architecture}"}
 
 
-        postbuildcommands "{COPY} %{wks.location}/ThirdParty/libs/*.dll %{wks.location}/bin/%{cfg.buildcfg}-%{cfg.architecture}"
-
+        postbuildcommands
+        {
+            "{COPY} %{wks.location}/ThirdParty/libs/*.dll %{wks.location}/bin/%{cfg.buildcfg}-%{cfg.architecture}",
+            "{COPYDIR} %{prj.location}/Textures %{wks.location}/bin/%{cfg.buildcfg}-%{cfg.architecture}/Textures/"
+        }
 
         files {
             "%{prj.location}/src/**.h",
